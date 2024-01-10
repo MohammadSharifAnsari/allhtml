@@ -1,0 +1,132 @@
+
+
+body::before{
+
+content: "";
+background-image: url(./stethoscope.webp);
+position: absolute;
+z-index: -1;
+top: 0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+opacity: .09;
+    
+}
+
+
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+
+}
+#home{
+    color: rgb(124, 245, 124);
+    text-decoration: underline;
+}
+.nav{
+    display:flex;
+    height: 20vh;
+    gap:45vw;
+    justify-content: center;
+    align-items: center;
+}
+.nav div {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.nav div img{
+    height: 5vh;
+    width: 4vw;
+}
+.nav ul {
+    width: 25vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    font-weight: bold;
+    text-decoration:none;
+}
+.nav ul li a:hover{
+    
+    font-size: x-large;
+    color:rgba(90, 163, 90,1);
+    text-decoration:underline;
+
+}
+
+main{
+    display:flex;
+    height: 60vh;
+    /* gap:10vw; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+main>img{
+height: 70vh;
+width:40vw;
+position: static;
+z-index: -2;
+}
+.leftmain{
+  
+margin-left:10vw;
+
+}
+
+
+
+.leftmain h1{
+    font-family: 'Fascinate', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-weight: bolder;
+
+
+}
+
+.leftmain p{
+
+margin-top: 4vh;
+margin-bottom: 3vh;
+
+
+}
+.leftmain input{
+    border: none;
+    width: 12vw;
+    padding: 10px 20px;
+    border-radius:20px;
+    background-color:rgb(124, 245, 124);
+}
+.leftmain input:hover{
+   cursor:pointer;
+  
+animation:sharif 2s ease-in-out 0s 1 both;
+
+
+}
+@keyframes sharif {
+   
+    from{
+        background-color:rgb(124, 245, 124);
+
+    }
+    to{
+        background-color:rgb(73, 126, 73);
+
+    }
+    
+    
+}
+
+

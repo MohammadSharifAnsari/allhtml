@@ -1,0 +1,136 @@
+
+*{
+    margin:0px;
+    padding:0px;
+box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    margin: 20px 110px;
+    margin-bottom: 70px;
+    /* height: 1vh;
+    width: 1vw; */
+    flex-direction: column;
+    overflow: hidden;
+/* align-items: center; */
+
+}
+header .nav{
+    margin-top: 10px;
+    display:flex;
+
+    justify-content:space-between ;
+   
+}
+.nav ul {
+    display:flex;
+    gap:50px;
+}
+.nav ul li a{
+    text-decoration:none;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li :hover{
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration:dotted;
+}
+.search{
+    display: flex;
+    gap:20px
+}
+.search input{
+    align-content: center;
+margin: 0px 10px;
+}
+.search input[type="button"]{
+    width:90px;
+    padding: 3px 10px;
+    color: white;
+    background-color: #43f16b;
+    border-radius: 10px;
+}
+#btn:hover{
+    background-color:rgb(64, 128, 30);
+    cursor:pointer;
+}
+.sec{
+    font-family: 'Fascinate', cursive;
+    font-family: 'Open Sans', sans-serif;
+    height: 475px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    color: #14ef47;
+    font-weight: bolder;
+}
+.right-sec{
+    display:flex;
+    flex-direction:column;
+    gap: 15px;
+}
+.right-sec input{
+    background-color: #43f16b;
+    border-radius: 10px;
+    padding:10px;
+}
+.right-sec input:hover{
+    animation-name:sharif;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+    cursor:pointer;
+    
+}
+@keyframes sharif {
+    from{
+        background-color: #43f16b;
+    }
+    to{
+
+        background-color:rgb(64, 128, 30);
+    }
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    gap: 400px;
+    justify-content: center;
+ 
+}
+footer ul{
+    width:30%;
+    display: flex;
+justify-content: space-evenly;
+}
+footer ul li{
+   
+    list-style: none;
+}
+footer ul li img{
+    height: 40px;
+    width:40px;
+}
+footer ul li i:hover{
+    cursor:pointer;
+    animation-name:ansari;
+    animation-duration:2s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+}
+@keyframes ansari {
+    from{
+      font-size: 20px;
+    }
+    to{
+
+     font-size: 30px;
+    }
+}
